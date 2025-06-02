@@ -24,12 +24,12 @@ namespace AzureBlobProject.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> AddFile(string containerName, IFormFile file)
+        public async Task<IActionResult> AddFile(string containerName, IFormFile file, BlobModel blobModel)
         {
             if (file == null || file.Length < 1) return View();
 
             var fileName = Path.GetFileNameWithoutExtension(file.FileName)+"_"+Guid.NewGuid()+Path.GetExtension(file.FileName);
-            var result = await _blobService.CreateBlob(fileName, file, containerName, new BlobModel());
+            var result = await _blobService.CreateBlob(fileName, file, containerName, blobModel);
 
             if (result)
                 return RedirectToAction("Index", "Container");

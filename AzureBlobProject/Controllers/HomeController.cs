@@ -9,10 +9,12 @@ namespace AzureBlobProject.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IContainerServices _containerServices;
-        public HomeController(ILogger<HomeController> logger, IContainerServices containerService)
+        private readonly IBlobService _blobService;
+        public HomeController(ILogger<HomeController> logger, IContainerServices containerService, IBlobService blobService)
         {
             _logger = logger;
             _containerServices = containerService;
+            _blobService = blobService;
         }
 
         public IActionResult Index()
@@ -20,9 +22,9 @@ namespace AzureBlobProject.Controllers
             return View(_containerServices.GetAllContainerAndBlobs().GetAwaiter().GetResult());
         }
 
-        public IActionResult Privacy()
+        public async Task<IActionResult> Images()
         {
-            return View();
+            return View(_blobService.GetAllBlobsWithUri("azuredemo-private").GetAwaiter().GetResult()) ;
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
