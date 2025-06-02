@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureBlobProject", "AzureBlobProject\AzureBlobProject.csproj", "{9F827B0F-9775-4031-A166-065565C6ADF4}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureFunctionExample", "AzureFunctionExample", "{23D637D4-47DA-4811-AF76-4E7079D8B2D0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionTangyWeb", "AzureFunctionTangyWeb\AzureFunctionTangyWeb.csproj", "{98FA4E84-9958-4B74-95FA-8027DACE3C0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureTangyFunc", "AzureTangyFunc\AzureTangyFunc.csproj", "{02F597A9-6CCA-4CE0-B370-99FC5FDE6AFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{98FA4E84-9958-4B74-95FA-8027DACE3C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98FA4E84-9958-4B74-95FA-8027DACE3C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98FA4E84-9958-4B74-95FA-8027DACE3C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02F597A9-6CCA-4CE0-B370-99FC5FDE6AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F597A9-6CCA-4CE0-B370-99FC5FDE6AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F597A9-6CCA-4CE0-B370-99FC5FDE6AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F597A9-6CCA-4CE0-B370-99FC5FDE6AFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9F827B0F-9775-4031-A166-065565C6ADF4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{98FA4E84-9958-4B74-95FA-8027DACE3C0F} = {23D637D4-47DA-4811-AF76-4E7079D8B2D0}
+		{02F597A9-6CCA-4CE0-B370-99FC5FDE6AFF} = {23D637D4-47DA-4811-AF76-4E7079D8B2D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5CDCFF8E-EEB9-4762-80A6-032CFD22E46A}
