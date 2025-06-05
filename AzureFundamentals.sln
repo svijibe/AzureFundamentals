@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionTangyWeb", "Az
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureTangyFunc", "AzureTangyFunc\AzureTangyFunc.csproj", "{02F597A9-6CCA-4CE0-B370-99FC5FDE6AFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionApp2", "FunctionApp2\FunctionApp2.csproj", "{232B7658-25BD-4B28-8774-5D506B4A0DC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{02F597A9-6CCA-4CE0-B370-99FC5FDE6AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02F597A9-6CCA-4CE0-B370-99FC5FDE6AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02F597A9-6CCA-4CE0-B370-99FC5FDE6AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{232B7658-25BD-4B28-8774-5D506B4A0DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{232B7658-25BD-4B28-8774-5D506B4A0DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{232B7658-25BD-4B28-8774-5D506B4A0DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{232B7658-25BD-4B28-8774-5D506B4A0DC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{9F827B0F-9775-4031-A166-065565C6ADF4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{98FA4E84-9958-4B74-95FA-8027DACE3C0F} = {23D637D4-47DA-4811-AF76-4E7079D8B2D0}
 		{02F597A9-6CCA-4CE0-B370-99FC5FDE6AFF} = {23D637D4-47DA-4811-AF76-4E7079D8B2D0}
+		{232B7658-25BD-4B28-8774-5D506B4A0DC1} = {23D637D4-47DA-4811-AF76-4E7079D8B2D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5CDCFF8E-EEB9-4762-80A6-032CFD22E46A}
